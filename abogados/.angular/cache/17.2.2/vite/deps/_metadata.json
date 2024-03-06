@@ -24,11 +24,35 @@
     }
   },
   "chunks": {
-    "chunk-NKRQVUSQ": {
-      "file": "chunk-NKRQVUSQ.js"
+    "browser-LMQS7YBM": {
+      "file": "browser-LMQS7YBM.js"
     },
-    "chunk-QT62IOSF": {
-      "file": "chunk-QT62IOSF.js"
+    "chunk-S4LO6VYZ": {
+      "file": "chunk-S4LO6VYZ.js"
+    },
+    "chunk-2NTFYMHX": {
+      "file": "chunk-2NTFYMHX.js"
+    },
+    "chunk-JDYZVRON": {
+      "file": "chunk-JDYZVRON.js"
+    },
+    "chunk-NWSHZTWZ": {
+      "file": "chunk-NWSHZTWZ.js"
+    },
+    "chunk-3DAOVCWB": {
+      "file": "chunk-3DAOVCWB.js"
+    },
+    "chunk-KMHKTSWC": {
+      "file": "chunk-KMHKTSWC.js"
+    },
+    "chunk-7JKIWCWV": {
+      "file": "chunk-7JKIWCWV.js"
+    },
+    "chunk-IVSNHJPJ": {
+      "file": "chunk-IVSNHJPJ.js"
+    },
+    "chunk-FQZWWORG": {
+      "file": "chunk-FQZWWORG.js"
     }
   }
 }
