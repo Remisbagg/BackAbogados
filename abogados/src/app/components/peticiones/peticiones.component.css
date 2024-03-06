@@ -1,0 +1,97 @@
+.mat-toolbar {
+
+  background: #002b3b;
+  color: white;
+}
+
+.jpg-icon {
+  max-width: 50%;
+  border-radius: 10px;
+  width:400px;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.example-container{
+
+  height: calc(100vh - 65px);
+}
+
+
+.mat-sidenav{
+
+  margin: 16px;
+  width: 200px;
+  border-right: none;
+  background: #002b3b;
+  color: white;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+}
+
+.avatar{
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name{
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.designation{
+  margin-top: 2px;
+  font-size: 0.7rem;
+  color: white;
+}
+
+.peticiones-button{
+  width:  100%;
+  display: flex;
+  align-items: center;
+  justify-content:  flex-start;
+  font-size: 1rem;
+
+}
+
+span{
+  color: white;
+}
+
+.content{
+  height: calc(100vh - 98px);
+  border-radius: 10px;
+  margin: 16px;
+  margin-left: 32px;
+  display: flex;
+  font-size: 2rem;
+  color: lightgray;
+}
+
+.mat-divider{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+}
+
+.mat-sidenav-content {
+  height: calc(100vh - 65px);
+}

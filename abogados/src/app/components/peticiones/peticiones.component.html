@@ -1,0 +1,43 @@
+<mat-toolbar color="primary">
+  <button mat-button disabled style="right: 110px;">
+  <img class="jpg-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThrikoAYxA8a9ZtqfNftIaDAqewRuQMO6xnT-fY_hB&s">
+</button>
+</mat-toolbar>
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened>
+    
+    <img class="avatar mat-elevation-z8" src="https://cdn-icons-png.flaticon.com/512/7816/7816916.png" alt="">
+    <h4 class="name">Alonso Navarrete</h4>
+    <p class="designation">Abogado</p>
+
+    <mat-divider></mat-divider>
+
+    <button mat-button class="peticiones-button">
+      <mat-icon style="color: white;">person</mat-icon>
+      <span><a [routerLink]="['/petic']" >Perfil</a></span>
+    </button>
+
+    <button mat-button class="peticiones-button">
+      <mat-icon style="color: white;">list_alt</mat-icon>
+      <span>Peticiones</span>
+    </button>
+
+        <mat-divider></mat-divider>
+
+    <button mat-button class="peticiones-button">
+      <mat-icon style="color: white;">exit_to_app</mat-icon>
+      <span>salir</span>
+    </button>
+
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    
+    <div>
+      <main class="content mat-elevation-z8">
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
